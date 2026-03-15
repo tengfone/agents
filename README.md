@@ -1,8 +1,8 @@
 # Personal Agents
 
-This repository is the source of truth for my reusable agent and skill files.
+This repository is is for my agent skills and helper files.
 
-Each agent lives in its own folder and can include:
+Each skill lives under `skills/<name>/` and can include:
 
 - `SKILL.md` for the main instructions, triggers, workflow, and output shape
 - `agents/` for provider-specific configuration such as `openai.yaml`
@@ -13,9 +13,10 @@ The repo is intentionally simple. It is a versioned collection of prompt assets 
 
 ## Current Agents
 
-| Agent | Purpose |
-| --- | --- |
-| `experience-planner` | Turns vague leisure requests into concrete, live-verified local plans with optional history tracking. |
+| Agent | Runtime | Purpose |
+| --- | --- | --- |
+| `experience-planner` | Live web research | Turns vague leisure requests into concrete, live-verified local plans with optional history tracking. |
+| `brainrotify` | Local-only rewrite script | Rewrites comments, docstrings, Markdown, and README-style text into brainrot while preserving executable code. Supports `L`, `Mid`, and `W` intensity levels, with `Mid` as the default. |
 
 ## Conventions
 

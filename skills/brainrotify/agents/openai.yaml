@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainrotify"
+  short_description: "Rewrite docs into playful brainrot safely"
+  default_prompt: "Use $brainrotify to transform comments, docstrings, and Markdown into Gen-Z brainrot while preserving executable code. Ask whether to create a timestamped backup before writing."

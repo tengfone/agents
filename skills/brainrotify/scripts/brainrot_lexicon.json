@@ -1,0 +1,211 @@
+{
+  "brainrot_markers": [
+    "absolute cinema",
+    "ate",
+    "based",
+    "bestie",
+    "bro,",
+    "chat,",
+    "fire",
+    "fr fr",
+    "lowkey",
+    "main-character",
+    "mid",
+    "no cap",
+    "skill issue",
+    "slaps",
+    "we are so back",
+    "we vibing"
+  ],
+  "replacement_sets": {
+    "common": [
+      {
+        "pattern": "(?<!lowkey )\\bimportant\\b",
+        "replacements": [
+          "lowkey important",
+          "lore-important",
+          "actually important fr"
+        ]
+      },
+      {
+        "pattern": "(?<!vibe )\\bnote\\b",
+        "replacements": [
+          "vibe check",
+          "side quest note",
+          "little lore drop"
+        ]
+      },
+      {
+        "pattern": "\\bwarning\\b",
+        "replacements": [
+          "big yikes",
+          "red-flag energy",
+          "do not fumble this"
+        ]
+      },
+      {
+        "pattern": "\\btip\\b",
+        "replacements": [
+          "pro gamer move",
+          "tech tree unlock",
+          "min-max move"
+        ]
+      },
+      {
+        "pattern": "\\boptional\\b",
+        "replacements": [
+          "dealer's choice",
+          "bonus side quest",
+          "if you're feeling spicy"
+        ]
+      },
+      {
+        "pattern": "\\bverify\\b",
+        "replacements": [
+          "vibe check",
+          "double-check fr",
+          "sanity-check"
+        ]
+      }
+    ],
+    "Mid": [
+      {
+        "pattern": "\\bworks\\b",
+        "replacements": [
+          "slaps",
+          "is kinda fire",
+          "ate"
+        ]
+      },
+      {
+        "pattern": "\\bworking\\b",
+        "replacements": [
+          "slapping",
+          "cooking",
+          "going kinda crazy"
+        ]
+      },
+      {
+        "pattern": "\\bbroken\\b",
+        "replacements": [
+          "cooked",
+          "scuffed",
+          "down atrocious"
+        ]
+      },
+      {
+        "pattern": "\\bfixed\\b",
+        "replacements": [
+          "no longer cooked",
+          "patched up",
+          "back online"
+        ]
+      },
+      {
+        "pattern": "\\bproblem\\b",
+        "replacements": [
+          "skill issue",
+          "whole situation",
+          "certified mess"
+        ]
+      },
+      {
+        "pattern": "\\bsimple\\b",
+        "replacements": [
+          "chill",
+          "pretty light",
+          "low-drama"
+        ]
+      },
+      {
+        "pattern": "\\bslow\\b",
+        "replacements": [
+          "mid",
+          "moving like dial-up",
+          "taking its sweet time"
+        ]
+      },
+      {
+        "pattern": "\\bfast\\b",
+        "replacements": [
+          "zooming",
+          "kinda cracked",
+          "moving at light speed"
+        ]
+      }
+    ],
+    "W": [
+      {
+        "pattern": "\\bcritical\\b",
+        "replacements": [
+          "lore-critical",
+          "main-plot critical",
+          "absolutely mission-critical"
+        ]
+      },
+      {
+        "pattern": "\\bcareful\\b",
+        "replacements": [
+          "careful, chat",
+          "be so real and careful",
+          "watch it bestie"
+        ]
+      },
+      {
+        "pattern": "\\bavoid\\b",
+        "replacements": [
+          "do not vibe with",
+          "hard avoid",
+          "steer clear of"
+        ]
+      },
+      {
+        "pattern": "\\bclean\\b",
+        "replacements": [
+          "clean enough to post",
+          "fresh",
+          "a whole face card"
+        ]
+      }
+    ]
+  },
+  "sentence_flair": {
+    "L": {
+      "prefixes": [
+        "Lowkey, ",
+        "Ngl, "
+      ],
+      "suffixes": [
+        " no cap",
+        " fr",
+        " lowkey"
+      ]
+    },
+    "Mid": {
+      "prefixes": [
+        "Bestie, ",
+        "Respectfully, ",
+        "Bro, "
+      ],
+      "suffixes": [
+        " we vibing",
+        " this slaps",
+        " fr fr",
+        " no cap"
+      ]
+    },
+    "W": {
+      "prefixes": [
+        "Chat, ",
+        "Be so real, ",
+        "No shot, "
+      ],
+      "suffixes": [
+        " absolute cinema",
+        " we are so back",
+        " main-character energy",
+        " if you know you know"
+      ]
+    }
+  }
+}
