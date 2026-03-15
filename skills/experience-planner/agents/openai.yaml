@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experience Planner"
+  short_description: "Turn vague boredom into live local plans"
+  default_prompt: "Use $experience-planner to turn a vague request into a concrete real-world plan with live web-verified options and current local trend signals."
