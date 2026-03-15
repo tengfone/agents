@@ -7,40 +7,6 @@ description: >-
   documentation text surfaces in one file or a directory while preserving
   syntax, logic, formatting, and code fences. Support optional backup creation
   and three intensity levels: `L`, `Mid`, and `W`.
-metadata:
-  primary_script: scripts/brainrotify.py
-  lexicon_path: scripts/brainrot_lexicon.json
-  backup_root: .brainrot-backup
-  compatible_agents:
-    - codex
-    - claude
-    - generic-ai-agent
-  supported_intensities:
-    - L
-    - Mid
-    - W
-  supported_surfaces:
-    - markdown
-    - readme
-    - docstrings
-    - code-comments
-    - html-comments
-  output_sections:
-    - runtime mode
-    - available intensities
-    - scope
-    - backup
-    - rewrite summary
-    - skipped files
-tags:
-  - documentation
-  - markdown
-  - comments
-  - docstrings
-  - transformation
-  - code-safe
-  - humor
-  - novelty
 ---
 
 # Brainrotify

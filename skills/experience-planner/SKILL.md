@@ -1,27 +1,6 @@
 ---
 name: experience-planner
 description: Convert vague real-world leisure requests into concrete activity plans. Use when the user says they are bored, asks what to do tonight or this weekend, wants date ideas, solo outings, hangouts, nearby classes, or short itineraries that should account for location, time, weather, budget, companions, travel time, and prior activity history. Use live web research to verify current venues, events, weather, and local trend signals before recommending a small executable plan, and optionally record the outcome and feedback in a local history file.
-metadata:
-  history_path: .experience-planner/history.json
-  primary_script: scripts/activity_history.py
-  requires_live_research: true
-  requires_web_browsing: true
-  output_sections:
-    - assumptions
-    - recommended plan
-    - booking notes
-    - backups
-    - history update
-tags:
-  - planning
-  - leisure
-  - local-activities
-  - itinerary
-  - weather-aware
-  - budget-aware
-  - history-aware
-  - trend-aware
-  - live-research
 ---
 
 # Experience Planner
